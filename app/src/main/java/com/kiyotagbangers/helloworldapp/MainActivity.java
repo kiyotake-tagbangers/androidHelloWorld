@@ -16,7 +16,12 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+
+        // LinearLayout
+        //setContentView(R.layout.activity_main);
+
+        // ConstraintLayout
+        setContentView(R.layout.activity_main_constraint);
 
         // ボタンをインスタンス化
         Button greeting = findViewById(R.id.greeting_button);
